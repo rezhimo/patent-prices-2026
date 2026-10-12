@@ -1,0 +1,58 @@
+{
+  "name": "rezhimo-patent-prices-2026",
+  "title": "Стоимость патента для ИП по регионам России, 2026",
+  "description": "Рейтинг 89 регионов России по стоимости патента (ПСН) на 2026 год и цены по 10 популярным видам деятельности. Источник цен — калькулятор ФНС.",
+  "homepage": "https://rezhimo.ru/issledovaniya/patent-2026",
+  "version": "2026.10",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Калькулятор стоимости патента ФНС России",
+      "path": "https://patent.nalog.ru"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Режимо",
+      "path": "https://rezhimo.ru",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "патент",
+    "ПСН",
+    "ИП",
+    "налоги",
+    "регионы",
+    "ФНС",
+    "2026"
+  ],
+  "resources": [
+    {
+      "name": "regions",
+      "path": "regions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      }
+    },
+    {
+      "name": "popular-kinds",
+      "path": "popular-kinds.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      }
+    }
+  ]
+}
